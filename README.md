@@ -1,5 +1,11 @@
 # gojo-nuker
 a fast nuker with nice features
+<p align="center">
+<a href="https://gohan.questionable.link/5jgoyqgBz">
+<img src="./prewiew'.gif">
+</a>
+</p>
+
 ## Installation And Use
 - Click on the `gojo-nuker.zip`.
 - Extract the zip.
