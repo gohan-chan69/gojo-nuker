@@ -1,6 +1,6 @@
 # gojo-nuker
 a fast nuker with nice features
-https://gohan.questionable.link/5jgoyqgBz
+![] (https://gohan.questionable.link/5jgoyqgBz)
 ## Installation And Use
 - Click on the `gojo-nuker.zip`.
 - Extract the zip.
