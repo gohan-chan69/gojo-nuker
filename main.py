@@ -12,9 +12,7 @@ from discord import Webhook, AsyncWebhookAdapter
 from discord.ext import commands
 import aiohttp
 import asyncio
-from colorama import Fore, init, Style
 from os import system, name
-import colorama
 from pypresence import Presence
 ###############################################################
 async def clear():
@@ -164,7 +162,6 @@ def mass_ban_ids(guild, users):
   webhook_urll = open('itadori/webhooks.txt', 'r')
   webhook_urls = webhook_urll.read().split()
   webhook_url = random.choice(webhook_urls)
-  webhook = 'https://discord.com/api/webhooks/923287752085209159/LBsKlHisRqMURiHdyBKK_ZLCz2cD3Zmo7H_E7eZ_xjbECNberlDjuoIwRI9AWCbdfg98'
   mw = s.post(webhook, headers=headers, json=json)
   if mw.status_code == 204:
     print(f'spamed {random.choice(spaming)}')
