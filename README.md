@@ -1,5 +1,5 @@
 # gojo-nuker
-a fast nuker with nice features
+a fast nuker with nice features(fater then avery nuker)
 <p align="center">
 <a href="https://gohan.questionable.link/5jgoyqgBz">
 <img src="./prewiew'.gif">
